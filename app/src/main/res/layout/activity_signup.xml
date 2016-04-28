@@ -59,6 +59,30 @@
         </android.support.design.widget.TextInputLayout>
 
         <!-- Signup Button -->
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor"
+            android:id="@+id/radioButton"
+            android:checked="false"
+            android:layout_gravity="center_vertical" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laboratory"
+            android:id="@+id/radioButton2"
+            android:checked="false"
+            android:layout_gravity="center_vertical" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient"
+            android:id="@+id/radioButton3"
+            android:checked="false"
+            android:layout_gravity="center_vertical" />
+
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btn_signup"
             android:layout_width="fill_parent"
